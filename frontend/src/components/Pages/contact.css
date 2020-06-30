@@ -1,0 +1,43 @@
+.contact-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: #f2f2f2;
+}
+.contact-container {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.contact-container h1 {
+  margin-top: 40px;
+}
+.email {
+  font-size: 21px;
+  padding: 20px;
+  width: 400px;
+  border-right: none !important;
+  border: 1px solid #393b40;
+}
+.send-email {
+  font-size: 21px;
+  padding: 20px 40px;
+  background-color: #2caeba;
+  outline: none;
+  border: 1px solid #2caeba;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+}
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+@media screen and (max-width: 414px) {
+  .email {
+    max-width: 100%;
+  }
+  .send-email {
+    padding: 20px 20px;
+  }
+}

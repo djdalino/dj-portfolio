@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "cd client && npm start"
+    "client": "cd frontend && npm start"
   },
   "author": "Darren James Dalino",
   "license": "ISC",

@@ -1,0 +1,78 @@
+:root {
+  --mainBlue: #2caeba;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #f2f2f2;
+  font-family: "Raleway", sans-serif;
+}
+.main-blue {
+  color: var(--mainBlue);
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalized {
+  text-transform: capitalize;
+}
+.text-center {
+  text-align: center;
+}
+
+.mt-60 {
+  margin-top: 60px !important;
+}
+.pt-60 {
+  padding-top: 60px !important;
+}
+.nm {
+  margin: 0;
+}
+.np {
+  padding: 0;
+}
+
+@media screen and (max-width: 1366px) {
+  .project-container-content {
+    margin: auto;
+    width: 90% !important;
+  }
+  .about-wrapper {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .about-wrapper {
+    width: 90% !important;
+    margin: auto;
+  }
+  .about-container {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .about-me {
+    max-width: 400px;
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mx-15 {
+    margin: 15px;
+  }
+  .about-wrapper {
+    width: 100%;
+  }
+  .about-container {
+    justify-content: center !important;
+  }
+  .about-me {
+    text-align: center !important;
+  }
+}

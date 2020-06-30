@@ -1,0 +1,92 @@
+.home-wrapper {
+  background: url(/images/monolith.jpg) no-repeat center;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+.moving-clouds {
+  background-image: url("/images/clouds.png");
+  background-repeat: repeat;
+  overflow-x: hidden;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 255rem;
+  height: 100%;
+  -webkit-animation: cloudMove 80s linear infinite;
+  -moz-animation: cloudMove 80s linear infinite;
+  -o-animation: cloudMove 80s linear infinite;
+  animation: cloudMove 80s linear infinite;
+}
+.home-container {
+  max-width: 100%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-container-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.home-welcome {
+  text-align: center;
+}
+.home-contact-me {
+  background-color: #2caeba;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 21px;
+  padding: 18px 44px;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.home-contact-me:hover {
+  padding: 24px 50px;
+  font-size: 27px;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-line {
+  height: 150px;
+  width: 2px;
+  background-color: white;
+  margin: 30px 0;
+}
+@-webkit-keyframes cloudMove {
+  0% {
+    margin-left: 1000px;
+  }
+  100% {
+    margin-left: -1000px;
+  }
+}
+@-webkit-keyframes cloudMove {
+  0% {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+@keyframes cloudMove {
+  0% {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}

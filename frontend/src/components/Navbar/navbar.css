@@ -1,0 +1,64 @@
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.navbar-wrapper {
+  height: 60px;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  z-index: 100;
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1366px;
+  height: 100%;
+  margin: auto;
+}
+.navbar-logo {
+  width: 100px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.navbar-logo a {
+  color: white;
+  text-decoration: none;
+}
+.navbar-ul {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  color: white;
+}
+.navbar-ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  font-weight: 600;
+}
+.navbar-ul a:hover {
+  color: #2caeba;
+  font-size: 27px;
+}
+.nav-change {
+  background-color: rgba(000, 000, 000, 0.5);
+  backdrop-filter: saturate(180%) blur(20px);
+  transition: all 0.3s ease-in-out;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
