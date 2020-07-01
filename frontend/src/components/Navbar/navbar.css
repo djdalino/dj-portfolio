@@ -17,9 +17,6 @@ li {
   width: 100%;
   transition: all 0.3s ease-in-out;
   z-index: 100;
-  backdrop-filter: saturate(180%) blur(20px);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
 }
 .navbar {
   display: flex;
@@ -61,4 +58,48 @@ li {
   transition: all 0.3s ease-in-out;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
+}
+
+.sl-nav-burger {
+  height: 40px;
+  width: 40px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.line1 {
+  background-color: black;
+  width: 30px;
+  height: 3px;
+  margin: 3px;
+  border: 1px solid black;
+  transition: all 0.3s linear;
+}
+.line2 {
+  background-color: black;
+  width: 30px;
+  height: 3px;
+  margin: 3px;
+  border: 1px solid black;
+  transition: all 0.3s linear;
+}
+.line3 {
+  background-color: black;
+  width: 30px;
+  height: 3px;
+  margin: 3px;
+  border: 1px solid black;
+  transition: all 0.3s linear;
+}
+.toggle.line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle.line2 {
+  display: none;
+}
+.toggle.line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }

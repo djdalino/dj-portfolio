@@ -20,15 +20,15 @@ const About = () => {
         <div>
           <h1>Skills</h1>
           <p>HTML/CSS</p>
-          <ProgressBar done="90" />
+          <ProgressBar done="97" />
           <p>JAVASCRIPT</p>
-          <ProgressBar done="93" />
+          <ProgressBar done="95" />
           <p>REACT JS</p>
           <ProgressBar done="97" />
           <p>NODE JS/ EXPRESS JS</p>
-          <ProgressBar done="97" />
+          <ProgressBar done="96" />
           <p>MONGO DB</p>
-          <ProgressBar done="98" />
+          <ProgressBar done="93" />
         </div>
       </div>
     </div>
