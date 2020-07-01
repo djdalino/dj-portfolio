@@ -1,5 +1,5 @@
 :root {
-  --mainBlue: #2caeba;
+  --mainBlue: #1c919c;
 }
 
 body {
@@ -25,10 +25,10 @@ body {
 }
 
 .mt-60 {
-  margin-top: 60px !important;
+  margin-top: 50px !important;
 }
 .pt-60 {
-  padding-top: 60px !important;
+  padding-top: 50px !important;
 }
 .nm {
   margin: 0;
@@ -37,6 +37,22 @@ body {
   padding: 0;
 }
 
+h2 {
+  font-weight: 200 !important;
+  text-transform: initial !important;
+}
+
+img {
+  opacity: 0.9;
+}
+
+button:hover {
+  background-color: #2e7079;
+}
+button,
+a {
+  cursor: pointer;
+}
 @media screen and (max-width: 1366px) {
   .project-container-content {
     margin: auto;
@@ -62,17 +78,51 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .mx-15 {
-    margin: 15px;
-  }
+@media screen and (max-width: 1024px) {
   .about-wrapper {
     width: 100%;
   }
   .about-container {
     justify-content: center !important;
   }
+  .progress {
+    background-color: #d8d8d8;
+    border-radius: 20px;
+    position: relative;
+    margin: 15px 0;
+    height: 10px;
+    width: 100% !important;
+  }
   .about-me {
     text-align: center !important;
+    padding: 0px !important;
+    max-width: 100%;
+  }
+  .home-wrapper {
+    background: url(/images/monolith.jpg) no-repeat center;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    position: relative;
+    height: 104vh;
+  }
+  #about-scroll > div > div:nth-child(3) {
+    width: 100%;
+  }
+  .navbar-burger {
+    display: flex !important;
+    margin-right: 15px;
+  }
+  .navbar-ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(100%);
+    flex-direction: column;
+    height: 100vh !important;
+    width: 100% !important;
+    justify-content: space-evenly !important;
+    align-items: center;
+    background: #272727;
   }
 }
