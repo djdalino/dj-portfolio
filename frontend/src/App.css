@@ -1,5 +1,5 @@
 :root {
-  --mainBlue: #2caeba;
+  --mainBlue: #1c919c;
 }
 
 body {
@@ -25,10 +25,10 @@ body {
 }
 
 .mt-60 {
-  margin-top: 60px !important;
+  margin-top: 50px !important;
 }
 .pt-60 {
-  padding-top: 60px !important;
+  padding-top: 50px !important;
 }
 .nm {
   margin: 0;
@@ -37,6 +37,22 @@ body {
   padding: 0;
 }
 
+h2 {
+  font-weight: 200 !important;
+  text-transform: initial !important;
+}
+
+img {
+  opacity: 0.9;
+}
+
+button:hover {
+  background-color: #2e7079;
+}
+button,
+a {
+  cursor: pointer;
+}
 @media screen and (max-width: 1366px) {
   .project-container-content {
     margin: auto;

@@ -3,7 +3,7 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 class Navbar extends Component {
   state = {
-    navbar: "",
+    navbar: ""
   };
   componentDidMount() {
     this.onChangeNavbar();
@@ -11,7 +11,7 @@ class Navbar extends Component {
   onChangeNavbar = () => {
     window.addEventListener("scroll", () => {
       let windowHeight = window.scrollY;
-      if (windowHeight > 400) {
+      if (windowHeight > 80) {
         this.setState({ navbar: "nav-change" });
       } else {
         this.setState({ navbar: "" });

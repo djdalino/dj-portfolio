@@ -41,23 +41,30 @@
 .home-welcome {
   text-align: center;
 }
+
 .home-contact-me {
-  background-color: #2caeba;
+  background-color: #1c919c;
   box-shadow: none;
   outline: none;
   border: none;
   border-radius: 5px;
   color: white;
-  font-size: 21px;
-  padding: 18px 44px;
+  font-size: 18px;
+  padding: 10px 45px;
   z-index: 20;
   transition: all 0.3s ease-in-out;
   position: relative;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+  border: 1px solid #1c919c;
 }
+
 .home-contact-me:hover {
-  padding: 24px 50px;
-  font-size: 27px;
-  transition: all 0.3s ease-in-out;
+  background-color: #e6e6e6;
+  font-weight: bold;
+  color: #1c919c;
+  border: 1px solid #1c919c;
 }
 
 .home-line {

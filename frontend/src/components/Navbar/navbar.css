@@ -15,20 +15,23 @@ li {
   background-color: transparent;
   position: fixed;
   width: 100%;
+  padding: 10px 0 !important;
   transition: all 0.3s ease-in-out;
   z-index: 100;
-  backdrop-filter: saturate(180%) blur(20px);
+  /* backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px); */
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1366px;
+  max-width: 1168px;
   height: 100%;
   margin: auto;
 }
+
 .navbar-logo {
   width: 100px;
   text-align: center;
@@ -42,23 +45,31 @@ li {
 .navbar-ul {
   display: flex;
   justify-content: space-between;
-  width: 500px;
+  width: 435px;
   color: white;
 }
 .navbar-ul a {
   text-decoration: none;
   color: white;
-  font-size: 21px;
+  font-size: 15px;
   font-weight: 600;
 }
 .navbar-ul a:hover {
   color: #2caeba;
-  font-size: 27px;
 }
+
+.navbar-ul a:active {
+  color: #2caeba;
+}
+
 .nav-change {
   background-color: rgba(000, 000, 000, 0.5);
   backdrop-filter: saturate(180%) blur(20px);
   transition: all 0.3s ease-in-out;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
+}
+
+nav.navbar-wrapper.nav-change h1 {
+  color: #2caeba;
 }
