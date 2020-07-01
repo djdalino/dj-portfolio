@@ -79,16 +79,31 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .mx-15 {
-    margin: 15px;
-  }
   .about-wrapper {
     width: 100%;
   }
   .about-container {
     justify-content: center !important;
   }
+  .progress {
+    background-color: #d8d8d8;
+    border-radius: 20px;
+    position: relative;
+    margin: 15px 0;
+    height: 10px;
+    width: 100%;
+  }
   .about-me {
     text-align: center !important;
+    padding: 0px !important;
+    max-width: 100%;
+  }
+  .home-wrapper {
+    background: url(/images/monolith.jpg) no-repeat center;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    position: relative;
+    height: 104vh;
   }
 }
