@@ -24,3 +24,11 @@
 .about-me-dp img {
   width: 100%;
 }
+
+span.dev-name {
+  font-weight: 900;
+}
+
+.about-me p {
+  font-size: 19px;
+}

@@ -132,4 +132,10 @@ a {
     text-align: center;
     margin-top: 30px;
   }
+  .navbar-logo h1 {
+    text-align: center !important;
+    width: 100%;
+    font-size: 25px;
+    margin-left: 20px;
+  }
 }

@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import "./contact.css";
 class Contact extends Component {
   state = {
-    email: "",
+    email: ""
   };
-  onInputChange = (e) => {
+  onInputChange = e => {
     this.setState({ [e.target.name]: e.target.value });
     console.log(e.target.value);
   };
-  onSubmit = (e) => {
+  onSubmit = e => {
     e.preventDefault();
     if (this.state.email === "") {
       alert("Please enter your email...");
@@ -24,7 +24,7 @@ class Contact extends Component {
         <div className="contact-container">
           <h1 className="text-center text-uppercase">Request my CV</h1>
           <h2 className="text-center text-capitalized np nm">
-            Type your email and submit.
+            Send me your email.
           </h2>
           <h2 className="text-center text-capitalized np nm">
             I will email you within 24 hours.

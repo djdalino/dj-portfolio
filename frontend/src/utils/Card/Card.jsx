@@ -4,7 +4,10 @@ const Card = ({ image, content, title, github, live }) => {
   return (
     <div className="card-wrapper">
       <div className="card-container">
-        <img src={image} alt="project" />
+        <a className="click-live">
+          <img src={image} alt="project" />
+          <i className="fa fa-bullseye"></i>
+        </a>
       </div>
 
       <div className="card-content text-uppercase">
@@ -29,10 +32,7 @@ const Card = ({ image, content, title, github, live }) => {
         </div>
         <div className="card-footer">
           <a href={github} target="_blank" rel="noopener noreferrer">
-            Github
-          </a>
-          <a href={live} target="_blank" rel="noopener noreferrer">
-            Live
+            Open source on Github
           </a>
         </div>
       </div>
