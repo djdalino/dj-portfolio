@@ -4,7 +4,7 @@ import ProgressBar from "../../utils/ProgressBar/ProgressBar";
 const About = () => {
   return (
     <div className="about-wrapper" id="about-scroll">
-      <h1 className="text-uppercase text-center pt-60">About</h1>
+      <h1 className="text-uppercase text-center pt-60">About Me</h1>
       <div className="about-container mt-60">
         <div className="about-me-dp mx-15">
           <img src="/images/darren.png" alt="Darren James Dalino" />
@@ -21,9 +21,12 @@ const About = () => {
 
           <p>
             I love coding and debugging so much. I enjoy turning complex
-            problems into simple and intuitive designs. When I'm not coding,
-            you'll find me playing online games, cycling, trekking or working
-            out in the park.
+            problems into simple and intuitive designs.
+          </p>
+
+          <p>
+            When I'm not coding, you'll find me playing online games, cycling,
+            trekking or working out in the park.
           </p>
         </div>
         <div>
