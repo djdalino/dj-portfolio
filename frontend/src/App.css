@@ -106,4 +106,7 @@ a {
     position: relative;
     height: 104vh;
   }
+  #about-scroll > div > div:nth-child(3) {
+    width: 100%;
+  }
 }
