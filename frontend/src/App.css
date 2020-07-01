@@ -94,7 +94,7 @@ a {
     width: 100% !important;
   }
   .about-me {
-    text-align: center !important;
+    text-align: justify !important;
     padding: 0px !important;
     max-width: 100%;
   }
@@ -108,5 +108,12 @@ a {
   }
   #about-scroll > div > div:nth-child(3) {
     width: 100%;
+  }
+  .about-container.mt-60 > div {
+    text-align: center;
+  }
+  .about-me h1 {
+    text-align: center;
+    margin-top: 30px;
   }
 }
