@@ -42,6 +42,8 @@ const About = () => {
           <ProgressBar done="96" />
           <p>MONGO DB</p>
           <ProgressBar done="93" />
+          <p>PHOTO SHOP</p>
+          <ProgressBar done="90" />
         </div>
       </div>
     </div>
