@@ -10,15 +10,16 @@ const Card = ({ image, content, title, github, live }) => {
       <div className="card-content text-uppercase">
         <h2>{title}</h2>
         <div style={{ display: "flex", paddingBottom: "5px" }}>
-          {content.map(c => {
+          {content.map((c) => {
             return (
               <div style={{}}>
                 <p
+                  className="card-skills"
                   style={{
                     backgroundColor: "#393b40",
                     margin: "2px",
                     padding: "2px 12px",
-                    borderRadius: "5px"
+                    borderRadius: "5px",
                   }}
                 >
                   {c}
