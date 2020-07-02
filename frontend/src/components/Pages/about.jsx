@@ -4,17 +4,29 @@ import ProgressBar from "../../utils/ProgressBar/ProgressBar";
 const About = () => {
   return (
     <div className="about-wrapper" id="about-scroll">
-      <h1 className="text-uppercase text-center pt-60">About</h1>
+      <h1 className="text-uppercase text-center pt-60">About Me</h1>
       <div className="about-container mt-60">
         <div className="about-me-dp mx-15">
           <img src="/images/darren.png" alt="Darren James Dalino" />
         </div>
         <div className="about-me">
-          <h1>Darren James Dalino</h1>
           <p>
-            I am proficient in HTML5, CSS3, Javascript, React JS, Node JS,
-            Express JS, MongoDB and converting PSD file to interactive web pages
-            using reactJS and cutting images using photoshop.
+            Hi there! I am <span className="dev-name">Darren James Dalino</span>
+            . I am proficient in HTML5, CSS3, Javascript, React JS, Node JS,
+            Express JS, MongoDB, Converting PSD file into interactive and
+            responsive web pages. I can work on both server-side and client-side
+            using modern technologies I have mentioned. I always make sure that
+            all my works are QA'd using testing tool like browserstack.
+          </p>
+
+          <p>
+            I love coding and debugging so much. I enjoy turning complex
+            problems into simple and intuitive designs.
+          </p>
+
+          <p>
+            When I'm not coding, you'll find me playing online games, cycling,
+            trekking or working out in the park.
           </p>
         </div>
         <div>

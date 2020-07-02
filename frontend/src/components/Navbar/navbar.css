@@ -120,3 +120,7 @@ li {
   transform: translate(0) !important;
   transition: all 0.5s ease;
 }
+
+nav.navbar-wrapper.nav-change .navbar-logo h1 {
+  color: #49b4c1;
+}

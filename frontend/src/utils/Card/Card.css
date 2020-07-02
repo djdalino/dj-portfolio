@@ -72,6 +72,32 @@
   border-radius: 5px;
   font-size: 12px;
 }
+.card-container {
+  width: 100%;
+  height: 175px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+}
+
+i.fa.fa-bullseye {
+  z-index: 99;
+  position: relative;
+  color: #3b919c;
+  font-size: 59px;
+  top: -36px;
+  width: 63px;
+  background: #f2f2f2;
+  border-radius: 45px;
+}
+
+a.click-live:hover i.fa.fa-bullseye {
+  color: #4db4c1;
+}
+
+a.click-live:hover img {
+  opacity: 1;
+}
 
 @media screen and (max-width: 800px) {
   .card-footer a {

@@ -4,9 +4,13 @@
   "description": "darren portfolio",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start-app": "node server.js",
+    "start": "npm install && node server.js",
     "server": "nodemon server.js",
-    "client": "cd frontend && npm start"
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-client": "cd frontend && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build"
   },
   "author": "Darren James Dalino",
   "license": "ISC",
