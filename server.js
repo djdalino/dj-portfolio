@@ -29,11 +29,11 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`listening to port: ${PORT}`);
 });
-// if (process.env.NODE_ENV === "production") {
-const root = require("path").join(__dirname, "/frontend/build");
+if (process.env.NODE_ENV === "production") {
+  const root = require("path").join(__dirname, "/frontend/build");
 
-app.use(express.static(root));
-app.get("*", (req, res) => {
-  res.sendFile("index.html", { root });
-});
-//}
+  app.use(express.static(root));
+  app.get("*", (req, res) => {
+    res.sendFile("index.html", { root });
+  });
+}
