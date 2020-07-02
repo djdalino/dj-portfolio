@@ -1,13 +1,14 @@
 import React from "react";
 import "./about.css";
 import ProgressBar from "../../utils/ProgressBar/ProgressBar";
+import Darren from "../../Images/darren.png";
 const About = () => {
   return (
     <div className="about-wrapper" id="about-scroll">
       <h1 className="text-uppercase text-center pt-60">About Me</h1>
       <div className="about-container mt-60">
         <div className="about-me-dp mx-15">
-          <img src="/images/darren.png" alt="Darren James Dalino" />
+          <img src={Darren} alt="Darren James Dalino" />
         </div>
         <div className="about-me">
           <p>

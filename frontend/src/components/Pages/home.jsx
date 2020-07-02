@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./home.css";
+import Background from "../../Images/monolith.jpg";
+import Clouds from "../../Images/clouds.png";
 class Home extends Component {
   onScrollToContact = () => {
     const section = document.querySelector("#contact-scroll");
@@ -7,9 +9,15 @@ class Home extends Component {
   };
   render() {
     return (
-      <div className="home-wrapper" id="home-scroll">
-        <div className="filter"></div>
-        <div className="moving-clouds"></div>
+      <div
+        className="home-wrapper"
+        style={{ backgroundImage: `url(${Background})` }}
+        id="home-scroll"
+      >
+        <div
+          className="moving-clouds"
+          style={{ backgroundImage: `url(${Clouds})` }}
+        ></div>
         <div className="home-container">
           <div className="home-container-content">
             <h1 className="home-welcome text-uppercase">

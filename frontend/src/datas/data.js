@@ -1,7 +1,10 @@
+import SLroofing from "../Images/slroofing.jpg";
+import Portfolio from "../Images/portfolio.png";
+import PhoneProducts from "../Images/phone-products.jpg";
 export const data = [
   {
     _id: 1,
-    image: "/images/slroofing.jpg",
+    image: SLroofing,
     title: "SLroofing",
     content: ["MongoDB", "Express", "React", "Node"],
     github: "https://github.com/djdalino/slroofing",
@@ -9,7 +12,7 @@ export const data = [
   },
   {
     _id: 2,
-    image: "/images/portfolio.png",
+    image: Portfolio,
     title: "Portfolio Site",
     content: ["React", "Node", "Heroku"],
     github: "www.google.com",
@@ -17,7 +20,7 @@ export const data = [
   },
   {
     _id: 3,
-    image: "/images/phone-products.jpg",
+    image: PhoneProducts,
     title: "Phone Products",
     content: ["Netlify", "React"],
     github: "https://github.com/djdalino/react-phone-outlet",
