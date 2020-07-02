@@ -15,8 +15,8 @@ export const data = [
     image: Portfolio,
     title: "Portfolio Site",
     content: ["React", "Node", "Heroku"],
-    github: "www.google.com",
-    live: "www.google.com",
+    github: "https://github.com/djdalino/dj-portfolio",
+    live: "https://djdalino.herokuapp.com/",
   },
   {
     _id: 3,
