@@ -138,4 +138,19 @@ a {
     font-size: 25px;
     margin-left: 20px;
   }
+  p.card-skills {
+    padding: 7px !important;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .project-container-content {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)) !important;
+    grid-gap: 1.5rem 1.5rem;
+    gap: 1.5rem 1.5rem;
+    padding-bottom: 60px;
+  }
 }
