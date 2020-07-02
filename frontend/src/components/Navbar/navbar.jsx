@@ -43,7 +43,6 @@ class Navbar extends Component {
     this.setState({ burger: !this.state.burger });
   };
   render() {
-    console.log(this.state.burger);
     return (
       <nav className={`navbar-wrapper ${this.state.navbar}`}>
         <div className="navbar">
@@ -56,18 +55,18 @@ class Navbar extends Component {
 
             <div className="navbar-burger" onClick={() => this.onBurgerClick()}>
               <div
-                className={`${this.state.burger ? "" : "toggle"} line1`}
+                className={`${this.state.burger ? "toggle" : ""} line1`}
               ></div>
               <div
-                className={`${this.state.burger ? "" : "toggle"} line2`}
+                className={`${this.state.burger ? "toggle" : ""} line2`}
               ></div>
               <div
-                className={`${this.state.burger ? "" : "toggle"} line3`}
+                className={`${this.state.burger ? "toggle" : ""} line3`}
               ></div>
             </div>
           </div>
 
-          <ul className={`navbar-ul ${this.state.burger ? "" : "show-nav"}`}>
+          <ul className={`navbar-ul ${this.state.burger ? "show-nav" : ""}`}>
             <li onClick={() => this.onBurgerClick()}>
               <Link to="#" onClick={this.onScrollToHome}>
                 Home

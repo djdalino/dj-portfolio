@@ -12,8 +12,8 @@ const About = () => {
         </div>
         <div className="about-me">
           <p>
-            Hi there! I am <span className="dev-name">Darren James Dalino</span>
-            . I am proficient in HTML5, CSS3, Javascript, React JS, Node JS,
+            Hi there! I'm <span className="dev-name">Darren James Dalino</span>.
+            I am proficient in HTML5, CSS3, Javascript, React JS, Node JS,
             Express JS, MongoDB, Converting PSD file into interactive and
             responsive web pages. I can work on both server-side and client-side
             using modern technologies I have mentioned. I always make sure that
