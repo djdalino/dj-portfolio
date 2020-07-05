@@ -104,4 +104,7 @@ a.click-live:hover img {
     color: #ffffff;
     text-decoration: none;
   }
+  .card-footer {
+    top: 30px !important;
+  }
 }

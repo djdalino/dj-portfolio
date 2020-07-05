@@ -35,6 +35,11 @@
   justify-content: center;
   padding: 40px;
 }
+.email {
+  border-radius: 0!important;
+}
+}
+
 @media screen and (max-width: 414px) {
   .email {
     max-width: 80%;
