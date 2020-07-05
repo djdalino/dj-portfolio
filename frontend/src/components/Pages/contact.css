@@ -36,8 +36,7 @@
   padding: 40px;
 }
 .email {
-  border-radius: 0!important;
-}
+  border-radius: 0 !important;
 }
 
 @media screen and (max-width: 414px) {
